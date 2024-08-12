@@ -1,0 +1,16 @@
+section {
+    padding: 25px 0;
+}
+
+section h2{
+    font-size: 20px;
+    color: var(--dsct-color-font-primary);
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    section h2 {
+      font-size: 32px;
+    }
+  }
+  
