@@ -20,8 +20,21 @@ section {
   padding: 25px;
 }
 
-.dsct-section-faq {
+.dsct-section-comments {
   background-color: var(--dsct-color-bg-tertiary);
+}
+
+.dsct-container-comments {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dsct-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 @media (min-width: 576px) {
