@@ -8,8 +8,8 @@ export default function Home() {
       <Header />
       <main className="dsct-container">
         <section>
-          <h2>Venha nos visitar</h2>
-          <div>
+          <h2 className="dsct-section-title">Venha nos visitar</h2>
+          <div className="dsct-car-cards">
             <CarCard/>
             <CarCard/>
           </div>

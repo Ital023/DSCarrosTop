@@ -2,14 +2,21 @@ section {
     padding: 25px 0;
 }
 
-section h2{
+.dsct-section-title{
     font-size: 20px;
     color: var(--dsct-color-font-primary);
     text-align: center;
+    margin-bottom: 25px;
+}
+
+.dsct-car-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 @media (min-width: 576px) {
-    section h2 {
+  .dsct-section-title {
       font-size: 32px;
     }
   }
