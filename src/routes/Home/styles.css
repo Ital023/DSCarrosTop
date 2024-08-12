@@ -15,6 +15,15 @@ section {
   gap: 25px;
 }
 
+.dsct-section-products{
+  background-color: var(--dsct-color-bg-primary);
+  padding: 25px;
+}
+
+.dsct-section-faq {
+  background-color: var(--dsct-color-bg-tertiary);
+}
+
 @media (min-width: 576px) {
   .dsct-section-title {
       font-size: 32px;

@@ -3,6 +3,7 @@
 :root {
   --dsct-color-bg-primary: #ffffff;
   --dsct-color-bg-secondary: #3c9af0;
+  --dsct-color-bg-tertiary: #C8C8C8;
 
   --dsct-color-font-primary: #5E5E5E;
 }
@@ -25,9 +26,6 @@ body {
   background-color: var(--ct-color-bg-primary);
 }
 
-main {
-  padding: 0 20px;
-}
 
 .dsct-container {
   width: 100%;
