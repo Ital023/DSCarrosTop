@@ -1,5 +1,6 @@
 import CarCard from "../../components/CarCard";
 import CommentsCard from "../../components/CommentsCard";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "./styles.css";
 
@@ -7,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      
+
       <main>
         <section className="dsct-section-products">
           <div className="dsct-container">
@@ -35,6 +36,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Footer/>
 
 
     </>
