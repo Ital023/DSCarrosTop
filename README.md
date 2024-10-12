@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# DS Carros Top
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+Este repositório é referente à atividade do curso React Professional da DevSuperior, desenvolvida para praticar conhecimentos em componentização utilizando React, TypeScript e CSS. O projeto consiste em um site de carros, aplicando boas práticas na construção de componentes reutilizáveis e responsivos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- *Front end*: React, com foco no uso de componentes responsivos e reutilizáveis
+  
+Durante o desenvolvimento, aprofundei meus conhecimentos em componentização e responsividade.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Layout Desktop Web
+![Web 1](/assetsReadme/desktop1.png)
+![Web 2](/assetsReadme/desktop2.png)
+![Web 3](/assetsReadme/desktop3.png)
 
-- Configure the top-level `parserOptions` property like this:
+# Tecnologias utilizadas
+## Front End
+- React
+- TypeScript
+- CSS
+- Vite
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Como executar o projeto
+
+## Front End
+Pré-requisitos: Yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/Ital023/DSCarrosTop.git
+
+# instalar dependências
+yarn install
+
+# executar o projeto
+yarn start
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🤝 Colaboradores
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Ital023" title="Github do Ítalo Miranda">
+        <img src="https://avatars.githubusercontent.com/u/113559117?v=4" width="100px;" alt="Foto do Ítalo Miranda no GitHub"/><br>
+        <sub>
+          <b>Ítalo Miranda</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
